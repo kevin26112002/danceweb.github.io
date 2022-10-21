@@ -1,0 +1,55 @@
+
+doctype html
+html
+  head
+    title Kevin Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo 
+              img(src="/static/logo.png.pn g")  
+              | KDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About] 
+            li #[a(href="/") Service] 
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+    section#introsection
+        div Welcome to Kevin's Dance Academy
+        div.small Eat Sleep Dance Repeat
+    section#missionsection
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/1.png.png")
+                div.card-content
+                    p This is the best dance academy of the universe        
+        div.card 
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/3.png (2).png")
+                div.card-content
+                    p This is the best dance academy of the universe        
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/3.png.png")
+                div.card-content
+                    p This is the best dance academy of the universe        
+    section#sponsorssection
+        h2 Our Sponsors
+        div#sponsors
+            img(src="/static/microsoft.png",class="spimage")
+            img(src="/static/search.png",class="spimage")
+            img(src="/static/hp.png",class="spimage")
+            img(src="/static/apple.png",class="spimage")
+    footer#footer 
+        | Copyright @ 2019 KevinDanceAcademy.com | All rights reserved
+    script
+      include ../static/index.js
